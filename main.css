@@ -1,7 +1,17 @@
-section {
-    background: #ff1b68;
+body {
+    font-family: "Bitstream Charter", serif;
 }
-h1 {
+
+#product-overview h1 {
     color: antiquewhite;
     font-family: 'Anton', sans-serif;
+}
+
+#product-overview{
+    background: #ff1b68;
+}
+
+.section-title{
+    color: #2ddf5c;
+    font-family: inherit;
 }
