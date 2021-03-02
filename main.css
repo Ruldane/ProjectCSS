@@ -1,14 +1,16 @@
 body {
     font-family: "Bitstream Charter", serif;
+    margin: 0;
 }
 
-#product-overview h1 {
+#product-overview {
+    background: #ff1b68;
     color: antiquewhite;
     font-family: 'Anton', sans-serif;
-}
-
-#product-overview{
-    background: #ff1b68;
+    padding: 20px;
+    border: solid black 5px;
+    margin: 10px;
+    text-align: center;
 }
 
 .section-title{
