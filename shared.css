@@ -15,16 +15,23 @@ body {
   margin: 0;
   display: grid;
   grid-template-rows: 3.5rem auto fit-content(8rem);
+<<<<<<< HEAD
   grid-template-areas: "header"
                        "main"
                        "footer";
   /* padding-top: 3.5rem; */
+=======
+>>>>>>> 3ce1d2cb241c3f8f86cb84b57c877d0d8b4f5ca6
   height: 100%;
 }
 
 main {
+<<<<<<< HEAD
   /* grid-row: 2 / 3; */
   grid-area: main;
+=======
+  grid-row: 2/3;
+>>>>>>> 3ce1d2cb241c3f8f86cb84b57c877d0d8b4f5ca6
 }
 
 .backdrop {
@@ -146,8 +153,12 @@ main {
   background: black;
   padding: 2rem;
   margin-top: 3rem;
+<<<<<<< HEAD
   /* grid-row: 3 / 4; */
   grid-area: footer;
+=======
+  grid-row: 3/4;
+>>>>>>> 3ce1d2cb241c3f8f86cb84b57c877d0d8b4f5ca6
 }
 
 .main-footer__links {
